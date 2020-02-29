@@ -20,19 +20,12 @@ This is a simple checklist that should be ran over completed builds, please note
 ## HTML
 
 - [ ] Semantic HTML5 elements are in use across the website `<main> <section> <aside>` etc
-
 - [ ] An error 404 page has been setup on the website and functioning as intended, ensuring the information on the page is actually useful to the user.
-
 - [ ] All external links using `target="_blank"` are supported with a `rel="noopener"` attribute to reinforce security and prevent 'tab nabbing'.
-
 - [ ] Unnecessary comments have been removed from all pages across the website.
-
 - [ ] All pages adhere to W3C compliancy rules, though take some of this with a pinch of salt!
-
 - [ ] There are no broken links anywhere on the website.
-
-  https://www.screamingfrog.co.uk/ site crawler should aid in this.
-
+      https://www.screamingfrog.co.uk/ site crawler should aid in this.
 - [ ] No Lorem Ipsum text, or placeholder text is present on the website, and any test pages should be removed.
 
 ## Web Fonts / Icons
@@ -101,36 +94,23 @@ A full test of the various OS types below have been performed:
 ## Accessibility
 
 - [ ] Colour contrast should be reasonable, making sure text and important details on the site are comfortably readable / understandable.
-
 - [ ] Critical site functionality like main menus should all be operable without JavaScript.
-
 - [ ] The site should be comfortable to get around via a keyboard.
-
 - [ ] If focus is disabled, then this should be replaced by visible state in CSS.
-
 - [ ] `aria-label` attributes are being correctly and liberally used across the website to aid accessibility. e.g for use cases like below:
-
-  `<button aria-label="Close" type="button">X</button>`
-
-  e.g The above will help screen reader users understand what the button is doing, to a user with full vision we can see it's a close button, but to a screen reader user it's less obvious.
-
+      `<button aria-label="Close" type="button">X</button>`
+      e.g The above will help screen reader users understand what the button is doing, to a user with full vision we can see it's a close button, but to a screen reader user it's less obvious.
 - [ ] A cross section of the site has been tested via WAVE webaim accessibility test, ensuring all errors have been resolved where possible: https://wave.webaim.org/
 
 ## Performance
 
 - [ ] Page weight should be kept to a minimum, any pages over 1mb should be investigated to ensure everything has been done to keep size to a miniumum.
-
 - [ ] HTML has been minified.
-
 - [ ] Lazy loading has been implemented for images, scripts and css, this will increase the response time of the page.
-
 - [ ] Third party libraries and components have been vetted, components using excessive external API calls should be investigated.
-
 - [ ] All image assets have been minified using an image compressor such as ImageOptim (Mac), FileOptimizer (Windows).
-
 - [ ] Website has been ran through Google Pagespeed Insights, and any critical errors have been resolved:
-
-  https://developers.google.com/speed/pagespeed/insights/
+      https://developers.google.com/speed/pagespeed/insights/
 
 ## SEO
 
